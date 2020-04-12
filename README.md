@@ -63,7 +63,7 @@ MONGODB_URL=mongodb+srv://movieapp-user:userPassword@cluster0-t3mg5.mongodb.net/
 ```
   Note that you can also use different values for variables above:
   * *PORT* - port which you want to use
-  * *JWT_SECRET* - secret phrase that the jwt token was created with, used in authentication
+  * *JWT_SECRET* - secret phrase that the jwt token is created with, used in authentication
   * *OMDB_API_KEY* - API key used to acces **OMDb API**. If the above code doesn’t work you can generate your own on OMDb API website,
 instructions [here](http://www.omdbapi.com/apikey.aspx)
   * *MONGODB_URL* - connection string to database, example above contains connection URL to cluster created in **MongoDB Atlas**
