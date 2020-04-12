@@ -6,9 +6,14 @@ Simple REST API movie rating system that is integrated with external movie datab
 
 Basic documentation for endpoints can be found [here](https://app.swaggerhub.com/apis-docs/dudzixxie/Movie-App/1.0.0)
 
-## Getting Started - production version using Heroku
+## Getting Started - see how the app works using Heroku
 
-These instructions will let you quickly use the app without getting a copy of it on your local machine.
+These instructions will let you quickly see how the app works without getting a copy of it on your local machine.
+
+**View**
+* Use as base path URL: [heroku]
+* Click [here](https://app.swaggerhub.com/apis-docs/dudzixxie/Movie-App/1.0.0) for detailed information about available endpoints
+* It is recommended to use platform for API Development with a set of tools for making HTTP requests that will let you test endpoints correctly such as **[Postman](https://www.postman.com/)**.
 
 ## Getting Started - local machine
 
@@ -25,19 +30,15 @@ What things you need to install the software and how to install them
 **Links:**
 * [Node.js](https://nodejs.org/en/) - recommended ***version 12.8.1*** or greater
 * [Visual Studio Code](https://code.visualstudio.com/) - recommended ***version 1.44*** or greater
-* [MongoDB Community Server](https://www.mongodb.com/download-center/community) - recommended ***version 4.2.5*** or greater
 
 ### Installation
 
 A step by step series of examples that tell you how to get a development env running
 
 **Clone**
-* Clone this repo to your local machine using `https://github.com/dominikaduda/movie-info-api.git`\
-See the section about [cloning a repository](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) for more information
+* Clone this repo to your local machine using `https://github.com/dominikaduda/movie-info-api.git`
 
 **Setup**
-> Open project directory in text editor such as **Visual Studio Code**
-
 > In the project directory, install required npm modules by running from the terminal:
 
 ```
@@ -85,11 +86,9 @@ Uses `npm nodemon`:
   * more information [here](https://www.npmjs.com/package/nodemon)
 
 **View**
-* Open <http://localhost:3000> to view it in the browser
-* Click [here](https://app.swaggerhub.com/apis-docs/dudzixxie/Movie-App/1.0.0) for detailed information about available endpoints
+* Use as base path URL: <http://localhost:3000>
+* Click [here](https://app.swaggerhub.com/apis-docs/dudzixxie/Movie-App/1.0.0) for detailed information about available endpoints 
 * It is recommended to use platform for API Development with a set of tools for making HTTP requests that will let you test endpoints correctly such as **[Postman](https://www.postman.com/)**.
-
-Quick demo on how to set up **[Postman](https://www.postman.com/)** for the app to work properly [here]
 
 ## Running the tests
 
