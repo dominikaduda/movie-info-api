@@ -91,7 +91,7 @@ Uses `npm nodemon`:
 ## Tests
 
 Basic tests created for user as example.
-* Used **[Jest Testing Framework](https://www.npmjs.com/package/jest)** and [SuperTest](https://www.npmjs.com/package/supertest)
+* Used [Jest Testing Framework](https://www.npmjs.com/package/jest) and [SuperTest](https://www.npmjs.com/package/supertest)
 
 > Create an environment file ***test.env*** in the ***config*** directory in the same way as explains the [Installation](#installation) paragraph
 
