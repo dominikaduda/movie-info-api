@@ -88,6 +88,18 @@ Uses `npm nodemon`:
 * App is available by default on <http://localhost:3000>
 * Click [here](https://app.swaggerhub.com/apis-docs/dudzixxie/Movie-App/1.0.0) for detailed information about available endpoints
 
+## Tests
+
+Basic tests created for user as example.
+* Used **[Jest Testing Framework](https://www.npmjs.com/package/jest)** and [SuperTest](https://www.npmjs.com/package/supertest)
+
+> Create an environment file ***test.env*** in the ***config*** directory in the same way as explains the [Installation](#installation) paragraph
+
+> In project directory, you can run:
+```
+npm run test
+```
+
 ## Authors
 
 * **Dominika Duda** -> <https://github.com/dominikaduda>
