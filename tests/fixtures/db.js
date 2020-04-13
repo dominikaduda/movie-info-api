@@ -25,38 +25,10 @@ const userTwo = {
     }]
 }
 
-const movieInteractionOne = {
-    _id: new mongoose.Types.ObjectId(),
-    imdbID: 'tt0121387',
-    userScore: 8,
-    favourite: false,
-    owner: userOne._id
-}
-
-const movieInteractionTwo = {
-    _id: new mongoose.Types.ObjectId(),
-    imdbID: 'tt0121387',
-    userScore: 10,
-    favourite: true,
-    owner: userOne._id
-}
-
-const movieInteractionThree = {
-    _id: new mongoose.Types.ObjectId(),
-    imdbID: 'tt0121387',
-    userScore: 9,
-    favourite: true,
-    owner: userTwo._id
-}
-
 const setupDatabase = async () => {
     await User.deleteMany()
-    await MovieInteraction.deleteMany()
     await new User(userOne).save()
     await new User(userTwo).save()
-    await new MovieInteraction(movieInteractionOne).save()
-    await new MovieInteraction(movieInteractionTwo).save()
-    await new MovieInteraction(movieInteractionThree).save()
 }
 
 module.exports = {
@@ -64,8 +36,5 @@ module.exports = {
     userOne,
     userTwoId,
     userTwo,
-    movieInteractionOne,
-    movieInteractionTwo,
-    movieInteractionThree,
     setupDatabase
 }
