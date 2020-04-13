@@ -6,12 +6,12 @@ Simple REST API movie rating system that is integrated with external movie datab
 
 Basic documentation for endpoints can be found [here](https://app.swaggerhub.com/apis-docs/dudzixxie/Movie-App/1.0.0)
 
-## Getting Started - test how the app works using Heroku
+## Heroku deployment
 
-Test how the app works without getting a copy of it on your local machine.
+Application was deployed on **Heroku** and connected to cluster created in **MongoDB Atlas**. Test how the app works without getting a copy of it on your local machine.
 
 **View**
-* App is available on [heroku]
+* App is available on **<https://dduda-movie-app.herokuapp.com>**
 * Click [here](https://app.swaggerhub.com/apis-docs/dudzixxie/Movie-App/1.0.0) for detailed information about available endpoints
 
 ## Getting Started - local machine
@@ -59,14 +59,14 @@ ANOTHER_KEY=some other value
 PORT=3000
 JWT_SECRET=thisismysecret
 OMDB_API_KEY=da9569d1
-MONGODB_URL=mongodb+srv://movieapp-user:userPassword@cluster0-t3mg5.mongodb.net/movie-app?retryWrites=true&w=majority
+MONGODB_URL=mongodb://127.0.0.1:27017/movie-app-api
 ```
   Note that you can also use different values for variables above:
   * *PORT* - port which you want to use
   * *JWT_SECRET* - secret phrase that the jwt token is created with, used in authentication
   * *OMDB_API_KEY* - API key used to acces **OMDb API**. If the above code doesn’t work you can generate your own on OMDb API website,
 instructions [here](http://www.omdbapi.com/apikey.aspx)
-  * *MONGODB_URL* - connection string to database, example above contains connection URL to cluster created in **MongoDB Atlas**
+  * *MONGODB_URL* - connection string to database
 
 > Now, everything is set up. In project directory, you can run:
 ```
@@ -86,9 +86,7 @@ Uses `npm nodemon`:
 
 **View**
 * App is available by default on <http://localhost:3000>
-* Click [here](https://app.swaggerhub.com/apis-docs/dudzixxie/Movie-App/1.0.0) for detailed information about available endpoints 
-
-## Running the tests
+* Click [here](https://app.swaggerhub.com/apis-docs/dudzixxie/Movie-App/1.0.0) for detailed information about available endpoints
 
 ## Authors
 
