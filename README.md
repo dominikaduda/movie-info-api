@@ -70,14 +70,14 @@ instructions [here](http://www.omdbapi.com/apikey.aspx)
 
 > Now, everything is set up. In project directory, you can run:
 ```
-npm run start
+npm run dev
 ```
 Runs the app, server is up on port selected before
 
 Or
 
 ```
-npm run dev
+npm run withNodemon
 ```
 Runs the app, server is up on port selected before.
 Uses `npm nodemon`:
