@@ -6,14 +6,13 @@ Simple REST API movie rating system that is integrated with external movie datab
 
 Basic documentation for endpoints can be found [here](https://app.swaggerhub.com/apis-docs/dudzixxie/Movie-App/1.0.0)
 
-## Getting Started - see how the app works using Heroku
+## Getting Started - test how the app works using Heroku
 
-These instructions will let you quickly see how the app works without getting a copy of it on your local machine.
+Test how the app works without getting a copy of it on your local machine.
 
 **View**
-* Use as base path URL: [heroku]
+* App is available on [heroku]
 * Click [here](https://app.swaggerhub.com/apis-docs/dudzixxie/Movie-App/1.0.0) for detailed information about available endpoints
-* It is recommended to use platform for API Development with a set of tools for making HTTP requests that will let you test endpoints correctly such as **[Postman](https://www.postman.com/)**.
 
 ## Getting Started - local machine
 
@@ -86,9 +85,8 @@ Uses `npm nodemon`:
   * more information [here](https://www.npmjs.com/package/nodemon)
 
 **View**
-* Use as base path URL: <http://localhost:3000>
+* App is available by default on <http://localhost:3000>
 * Click [here](https://app.swaggerhub.com/apis-docs/dudzixxie/Movie-App/1.0.0) for detailed information about available endpoints 
-* It is recommended to use platform for API Development with a set of tools for making HTTP requests that will let you test endpoints correctly such as **[Postman](https://www.postman.com/)**.
 
 ## Running the tests
 
