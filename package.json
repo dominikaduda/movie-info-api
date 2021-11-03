@@ -22,7 +22,7 @@
     "mongodb": "^3.5.5",
     "mongoose": "^5.9.7",
     "request": "^2.88.0",
-    "validator": "^10.9.0"
+    "validator": "^13.7.0"
   },
   "devDependencies": {
     "env-cmd": "^8.0.2",
