@@ -11,7 +11,7 @@ Basic documentation for endpoints can be found [here](https://app.swaggerhub.com
 Application was deployed on **Heroku** and connected to cluster created in **MongoDB Atlas**. Test how the app works without getting a copy of it on your local machine.
 
 **View**
-* App is available on **<https://dduda-movie-app.herokuapp.com>**
+* App is available on **<https://dduda-movie-app.herokuapp.com>** (deprecated)
 * Click [here](https://app.swaggerhub.com/apis-docs/dudzixxie/Movie-App/1.0.0) for detailed information about available endpoints
 
 ## Getting Started - local machine
