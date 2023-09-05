@@ -1,6 +1,6 @@
 # movie-info-api
 
-Simple REST API movie rating system that is integrated with external movie database through [OMDb API](http://www.omdbapi.com/)
+Simple REST API movie rating system that is integrated with external movie database through [OMDb API](http://www.omdbapi.com/). **Note: the implementation of routers was made for some specific requirements but is not recommended by me.**
 
 ## Documentation
 
